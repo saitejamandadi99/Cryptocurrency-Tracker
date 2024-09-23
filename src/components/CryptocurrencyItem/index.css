@@ -1,0 +1,9 @@
+.listEle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.image-heading-Container{
+  display: flex;
+  
+}
