@@ -1,1 +1,8 @@
 /* Write your CSS here */
+.app-Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 100vh;
+}
