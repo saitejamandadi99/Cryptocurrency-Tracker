@@ -6,12 +6,12 @@ const CryptocurrencyItem = props => {
 
   return (
     <li className="listEle">
-      <div className='image-heading-Container'>
+      <div className="image-heading-Container">
         <img src={currencyLogo} alt={currencyName} />
         <p>{currencyName}</p>
       </div>
 
-      <div>
+      <div className="currencyContainer">
         <p>{usdValue}</p>
         <p>{euroValue}</p>
       </div>

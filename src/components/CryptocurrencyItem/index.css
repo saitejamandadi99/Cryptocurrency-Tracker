@@ -2,8 +2,39 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  color: white;
 }
-.image-heading-Container{
+.image-heading-Container {
   display: flex;
-  
+  justify-content: center;
+}
+
+img {
+  height: 50px;
+  width: 100%;
+  padding-right: 2px;
+  align-self: center;
+}
+
+p {
+  font-family: roboto;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+}
+.currencyContainer {
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+@media screen and (max-width: 767px) {
+  img {
+    height: 20px;
+  }
+  p {
+    font-size: 10px;
+    padding: 5px;
+  }
 }

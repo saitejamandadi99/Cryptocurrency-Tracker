@@ -21,7 +21,8 @@
   border: 4px solid #00e7ff;
   border-radius: 5px;
   width: 90%;
-  height: 30vh;
+  min-height: 30vh;
+  height: auto;
 }
 .table-heading-Container {
   display: flex;
