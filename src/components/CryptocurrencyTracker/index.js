@@ -1,14 +1,14 @@
 // Write your code here
 import {Component} from 'react'
 
-import CryptocurrencyItem from '../CryptocurrencyItem'
+import CryptocurrenciesList from '../CryptocurrenciesList'
 import './index.css'
 
 class CryptocurrencyTracker extends Component {
   render() {
     return (
       <div className="app-Container">
-        <CryptocurrencyItem />
+        <CryptocurrenciesList />
       </div>
     )
   }
